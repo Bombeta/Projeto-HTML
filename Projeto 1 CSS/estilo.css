@@ -35,3 +35,37 @@ main{
     padding: 15px;
     margin-top: 15px;
 }
+
+.card{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.menu_base{
+    font-size: 20px;
+    text-transform: uppercase;
+    border-color: white;
+    border: 2px solid;
+    margin-left: 800px;
+    margin-right: 0px;
+    width: 50px;
+    padding: 6px;
+    color: white;
+    display: inline;
+}
+
+.menu{
+    font-size: 20px;
+    text-transform: uppercase;
+    border-color: white;
+    border: 2px solid;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 50px;
+    padding: 6px;
+    color: white;
+    display: inline;
+
+    
+    
+}
