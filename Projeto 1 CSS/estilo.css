@@ -1,19 +1,19 @@
 body{
     font-family: arial, sans-serif;
     background: #ccc;
-    margin: 0;
-
+    margin: 0px;
 }
 
 .hero{
     background-image: url(imagens/bg-3.jpg);
     height: 500px;
-    background-position: right center;
-    background-size: cover; /** cover ocupa área inteira msmq esconda um pedaço da img */
-
+    background-position: right center;  /** centraliza a imagem a partir da direita **/
+    background-size: cover;             /** usa a imagem inteira **/
+     
 }
 
-.hero-content{
+.hero-content
+{
     text-align: center;
     color: white;
     margin-top: 150px;
@@ -21,51 +21,33 @@ body{
 
 .hero-content h1{
     text-transform: uppercase;
-    font-size: 46px;
-    text-shadow: 3px 3px 5px #333;
+    font-size: 46px;    
+    text-shadow: 3px 3px 2px #333;
 }
 
 main{
     width: 80%;
     margin: auto;
+
 }
 
 .content-section{
     background-color: white;
     padding: 15px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.card{
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.menu_base{
-    font-size: 20px;
-    text-transform: uppercase;
-    border-color: white;
-    border: 2px solid;
-    margin-left: 800px;
-    margin-right: 0px;
-    width: 50px;
-    padding: 6px;
+.content-section hr{
     color: white;
-    display: inline;
+   
 }
 
-.menu{
-    font-size: 20px;
-    text-transform: uppercase;
-    border-color: white;
-    border: 2px solid;
-    margin-left: 10px;
-    margin-right: 0px;
-    width: 50px;
-    padding: 6px;
-    color: white;
-    display: inline;
-
-    
-    
+footer{
+    background-color: gray;
+    text-align: center;
+    text-decoration-color: white;
+    margin-bottom: 0 px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
